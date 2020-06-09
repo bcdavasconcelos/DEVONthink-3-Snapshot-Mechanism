@@ -2,6 +2,15 @@
 
 ```applescript
 
+-- Restore Directly to v0
+
+-- bcdavasconcelos 2020-06-09-12-12-27
+-- https://github.com/bcdavasconcelos/DEVONthink-3-Snapshot-Mechanism
+
+-- **Do not use this as a backup mechanism.** 
+-- These snapshots should be considered *a convenience* for editing plain text.
+-- It was not intended to protect from loss of data.
+
 tell application id "DNtp"
 	
 	set theRecord to (content record of think window 1)

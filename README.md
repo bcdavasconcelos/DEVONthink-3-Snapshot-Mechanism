@@ -9,18 +9,16 @@
 
 # The first script: Save Snapshot
 
-The idea is very simple. I created custom metadata fields to store snapshots of the text (**v1**-**v9**) and the modification time (**d1**-**d9**).
-
+The idea is very simple. I created custom metadata fields to store snapshots of the text (**v1**-**v9**) and the modification time (**d1**-**d9**). The [first script](1_Save_Snapshot.md) is for *storing the text*. It will store the current text in v1 and throw what was in v1 to v2, what was in v2 to v3 and so on. What was in v9 says goodbye.
 
 ![][image-1]  	
 
 *I keep it at the bottom, so I don't see it if I don't want to.*
 
-The [first script](1_Save_Snapshot.md) is for *storing the text*. It will store the current text in v1 and throw what was in v1 to v2, what was in v2 to v3 and so on. What was in v9 says goodbye.
 
 ***
 
-## The second script: Compare/Restore Snapshot
+# The second script: Compare/Restore Snapshot
 
 The [second script](2_Compare_or_Restore_Snapshot.md) is for *restoring a snapshot*. When it is activated, it will ask whether you want to compare snapshots using BBEdit (could have used filemerge or something else, but I like BBEdit and you can install it for free) or simply restore to one of the previous snapshots.
 
@@ -39,7 +37,7 @@ If you chose to **restore**, that's it. The script will do so by replacing the t
 
 ***
 
-## A third little script - Restore Directly to v0
+# A third little script - Restore Directly to v0
 
 Side-note: I am also keeping a v0, which is sort of a template for the note and which won't be touched by the first script. I also set up a special shortcut to restore directly to this snapshot without any prompts. This will be the [third script](3_Restore_Directly_to_v0.md).
 

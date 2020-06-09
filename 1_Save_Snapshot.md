@@ -2,6 +2,15 @@
 
 ```applescript
 
+-- Save Snapshot
+
+-- bcdavasconcelos 2020-06-09-12-10-14
+-- https://github.com/bcdavasconcelos/DEVONthink-3-Snapshot-Mechanism
+
+-- **Do not use this as a backup mechanism.** 
+-- These snapshots should be considered *a convenience* for editing plain text.
+-- It was not intended to protect from loss of data.
+
 tell application id "DNtp"
 	-- set theRecords to the selection
 	-- repeat with theRecord in theRecords
@@ -67,7 +76,7 @@ tell application id "DNtp"
 	add custom meta data theNewMod for "d1" to theRecord
 	add custom meta data theText for "v1" to theRecord
 	
-	log message "New version saved" info "Saved at " & ((current date) as string) --
+	log message "New version saved" info "Saved at " & ((current date) as string) 
 	
 end tell
 
