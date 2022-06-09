@@ -1,3 +1,6 @@
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/bcdavasconcelos/Mellel-Bookends-ABNT" /> <img alt="GitHub Issues" src="https://img.shields.io/github/issues/bcdavasconcelos/Mellel-Bookends-ABNT" />
+
+
 # A Snapshots Mechanism for DEVONthink 3
 
 ## Warning
